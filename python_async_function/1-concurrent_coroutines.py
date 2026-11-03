@@ -4,7 +4,7 @@
 import asyncio
 
 
-def wait_n(n: int, max_delay: int) -> float:
+def wait_n(n: int, max_delay: int) -> list[float]:
     """returning a list of floats between n and max_delay"""
     wait_random = __import__('0-basic_async_syntax').wait_random
 
